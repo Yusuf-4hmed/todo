@@ -13,4 +13,6 @@
     height: 16px;
     background-image: url('https://em-content.zobj.net/source/apple/391/check-mark-button_2705.png');
     background-size: cover;
+    background-color: green;
+    border-radius: 4px;
 }
