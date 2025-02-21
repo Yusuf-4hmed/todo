@@ -9,8 +9,8 @@
     position: absolute;
     z-index: 1;
     transform: translateX(12px);
-    width: 16px; /* Adjust width */
-    height: 16px; /* Adjust height */
-    background-image: url('../assets/tick.png'); /* Your local image path */
+    width: 16px;
+    height: 16px;
+    background-image: url('/todo/assets/tick.png');
     background-size: cover;
 }
