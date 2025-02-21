@@ -11,6 +11,6 @@
     transform: translateX(12px);
     width: 16px; /* Adjust width */
     height: 16px; /* Adjust height */
-    background-image: url('/assets/tick.png'); /* Your local image path */
+    background-image: url('assets/tick.png'); /* Your local image path */
     background-size: cover;
 }
