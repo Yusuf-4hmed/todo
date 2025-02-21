@@ -11,6 +11,6 @@
     transform: translateX(12px);
     width: 16px;
     height: 16px;
-    background-image: url('/todo/assets/tick.png');
+    background-image: url('https://em-content.zobj.net/source/apple/391/check-mark-button_2705.png');
     background-size: cover;
 }
