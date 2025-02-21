@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo!</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="icon" href="./assets/note.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style>
+</head>
+<body>
+    <h1 class="w-xl mx-auto py-2 text-2xl font-bold mb-1">Todo!</h1>
+    <div class="w-xl max-h-200 mx-auto p-2 rounded-md bg-gray-100">
+        <div class="p-1 flex gap-1">
+            <input type="text" class="w-8/10 h-10 border p-1 bg-white border-gray-400 rounded-md drop shadow-xs focus:outline-0" id="input-field">
+            <button class="w-2/10 h-10 border bg-white border-gray-400 rounded-md cursor-pointer hover:bg-gray-100" id="add-button">Add</button>
+        </div>
+        <div class="w-auto min-h-10 bg-white m-1 rounded-md" id="to-do-list">
+
+            <!-- <div class="w-auto h-10 border-b-1 border-gray-300 p-1 flex gap-5 items-center last:border-transparent cursor-pointer" id="to-do">
+                <ion-icon name="square-outline" class="stroke-0 ml-3 cursor-pointer" id="check-to-do"></ion-icon>
+                <p class="cursor-default">Memorize 1 Ayah</p>
+                <ion-icon name="close-outline" class="ml-auto mr-2 cursor-pointer" id="remove-to-do"></ion-icon>
+            </div> -->
+
+        </div>
+        
+    </div>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
