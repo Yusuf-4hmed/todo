@@ -11,5 +11,5 @@
 ### Built With
 
 * HTML
-* TailwindCSS
+* <a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a>
 * JavaScript
